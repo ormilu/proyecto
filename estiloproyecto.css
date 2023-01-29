@@ -1,0 +1,74 @@
+body {
+    background-color: rgba(216, 198, 198, 0.87);
+    color:#22201b;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    
+  }
+  .row {
+    display: flex;
+  }
+  .col-12 {
+    flex: 1;
+  }
+  .card {
+    border: 3px solid white;
+    padding: 20px;
+    text-align: left;
+  }
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  .name {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+  }
+  .p1 {
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .email, .phone, .address {
+    text-align: right;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  .btn {
+    background-color: #4559b4;
+    color: white;
+    display: block;
+    float:left ;
+    margin-right: 10px;
+    font-size: 15px;
+    width: 180px;
+    height: 40px;
+    font-weight: bold;
+    margin-right: 10px;
+
+ }
+.hidden {
+  display: none;
+}
+.experience,
+.Informacion,
+.skill-list {
+  display: block;
+  clear: both;
+}
+
+  .company {
+
+    font-size: 20px;
+  }
+  .date {
+    font-style: italic;
+    font-size: 15px;
+  }
+
